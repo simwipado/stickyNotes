@@ -1,0 +1,29 @@
+.head {
+  height: 50px;
+  width: 100%;
+  background-color: rgb(151, 151, 49);
+  display: flex;
+  align-items: center;
+
+  user-select: none;
+  -webkit-app-region: drag;
+  padding: 0 10px;
+  box-sizing: border-box;
+}
+
+.head > * {
+  -webkit-app-region: no-drag;
+}
+
+.add {
+  font-size: 30px;
+  font-weight: bold;
+  color: white;
+}
+
+.close {
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  margin-left: auto;
+}
